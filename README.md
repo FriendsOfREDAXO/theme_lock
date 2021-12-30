@@ -1,2 +1,2 @@
 # theme_lock
-Erzwingt das light theme für REDAXO 5
+Erzwingt das light theme ab REDAXO 5.13
