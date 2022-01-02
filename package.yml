@@ -1,5 +1,5 @@
 package: theme_lock
-version: '0.0.2'
+version: '0.0.3'
 author: 'KLXM Crossmedia'
 supportpage: https://klxm.de
 load: early
