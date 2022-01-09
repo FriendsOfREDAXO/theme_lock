@@ -1,6 +1,7 @@
 <?php
 if (rex::isBackend())
-{
-  // Wer will kann hier auch dark reinschreiben. 
-  rex::setProperty('theme','light');
+{ 
+   rex_extension::register('PACKAGES_INCLUDED', static function (rex_extension_point $ep) {
+    rex::setProperty('theme', 'light');
+   }, rex_extension::EARLY);  
 }
